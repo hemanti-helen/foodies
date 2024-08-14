@@ -1,0 +1,20 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para"> I want to learnt javascript...</p>
+    <button type="button" onclick="change()">button </button>
+    <script>
+        let para1=document.getElementById("para");
+        function change()
+        {
+            para1.innerHTML="I have studied half concept..";
+        }
+        
+    </script>
+</body>
+</html>
